@@ -1,0 +1,32 @@
+Git is distributed version control system, its managing and versiong/tracing code in source code during software devlopment.
+Git Termonology:
+
+1) Git repository: Using git repo you can store information projects, file and folder
+2)There are 2 type of repository 
+   1)local repository: clone/save files from remote
+   2)Remote Repository: Save/stores local file to the server
+3)Cloning: clone remote repo/projects to the local area/repository
+4)Fork: Cloning repository from 1 accout to another accout like github account.
+5)Push: Sending local repo changes to remote.
+6)Pull: Bringing remote repo changes to local.
+
+Git Workfolw:
+
+git init : In itishilizer git repository to the local area
+git clone: clone remote repository to the local area
+git add . : working on file and stagina area changes
+git commit -m "msg" : commit changes locally 
+git push : push changes to the repot repository
+
+Branching Strategy:
+1) Master branch: default branch
+2) Devlopment branch: Created from master branch, each deav have its own
+3) Feature branch: Created from devlopment branch: for each devloper
+4) hotfix/bugfix branch: created from master. fixes error or bugs
+5) Realese branch: Created from master. delete after release
+
+Branching command:
+git branch branch_name ===> created new branch==
+git checkout branch_name ===> Switching to the branch from current branch
+git checkout -b branch_name ===>Swiching and creating new branch at same time.
+
