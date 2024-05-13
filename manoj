@@ -1,0 +1,7 @@
+Git Workflow:
+git init
+git clone repo_name  #From github or gitbab copy repo url
+git status
+git add .
+git commit -m "msg"
+git push
